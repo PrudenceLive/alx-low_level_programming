@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s main=intel $CFILE
+gcc -s main=intel $CFILEs
