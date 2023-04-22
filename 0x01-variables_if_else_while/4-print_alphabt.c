@@ -1,28 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success/correct)
  */
 
 int main(void)
+
 {
-	int i;
-	
-	for
+char alphabet;
 
-		(i = 97; i < 123;i++);
-	/* if loop */
-	if
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+if (alphabet == 'q')
+continue;
 
-		(i != 101 && i !=113);
+else if (alphabet == 'e')
+continue;
 
-		putchar(i);
+putchar(alphabet);
+}
 
-	/* end if loop */
-	putchar('\n');
-	return(0);
-		
+putchar('\n');
+
+return (0);
+
 }
